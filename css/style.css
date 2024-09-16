@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #282546;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+header h1 {
+    font-weight: lighter;
+    font-family: "Galindo";
+    font-size: 3.5rem;
+}
+
+body {
+    background-color: #E5D6ED;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+#museu{
+    width: 100%;
+}
+
+#paris {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.mainTitle {
+    font-family: "Kolker Brush";
+    font-size: 5rem;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+.descubra {
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: #A59CE9;
+    border-radius: 8px;
+}
+
+.descubra h2 {
+    font-size: 2rem;
+    font-family: "Galindo";
+    border-bottom: 1px black solid;
+    padding-bottom: 1rem;
+}
+
+.descubra p {
+    font-size: 1.2rem;
+    font-family: "Galindo";
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.pontos-turisticos {
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #A59CE9;
+    border-radius: 8px;
+}
+
+.pontos-turisticos h2 {
+    font-size: 2rem;
+    font-family: "Galindo";
+    border-bottom: 1px black solid;
+    padding-bottom: 1rem;
+}
+
+.pontos-turisticos ul {
+    padding-top: 1.5rem;
+    font-size: 1.2rem;
+    font-family: "Galindo";
+    font-weight: bolder;
+    padding-left: 2rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #282546;
+    height: 4.5rem;
+}
+
+footer p {
+    color: white;
+    font-family: "Galindo";
+    font-weight: lighter;
+}
